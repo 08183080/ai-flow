@@ -1,0 +1,2 @@
+wangyi_emai_auth: AMrFUvW36qjpC5Cs
+ZHIPUAI_API_KEY: 765f0244e795d9cce2d4e5f73b62a821.BdoBMhoIAeE349Vb

@@ -1,0 +1,170 @@
+2026-01-16 start the job...
+try at 0 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 1 failed with error: write() argument must be str, not None
+try at 1 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending/python (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7bd420a41130>, 'Connection to github.com timed out. (connect timeout=10)')) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 2 failed with error: write() argument must be str, not None
+try at 2 to get trends~
+scrape() status_code: 200
+https://github.com/google/langextract
+https://github.com/ultralytics/ultralytics
+https://github.com/neuphonic/neutts
+https://github.com/anthropics/skills
+https://github.com/prowler-cloud/prowler
+https://github.com/davila7/claude-code-templates
+https://github.com/ml-explore/mlx-lm
+https://github.com/camel-ai/owl
+https://github.com/NVIDIA/warp
+https://github.com/modelscope/evalscope
+https://github.com/facebookresearch/fairseq
+https://github.com/ml-explore/mlx-examples
+scape ends
+
+ai is reading, the info is:
+1. [google / langextract]:A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.(https://github.com/google/langextract)
+2. [ultralytics / ultralytics]:Ultralytics YOLO 🚀(https://github.com/ultralytics/ultralytics)
+3. [neuphonic / neutts]:On-device TTS model by Neuphonic(https://github.com/neuphonic/neutts)
+4. [anthropics / skills]:Public repository for Agent Skills(https://github.com/anthropics/skills)
+5. [prowler-cloud / prowler]:Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment.(https://github.com/prowler-cloud/prowler)
+6. [davila7 / claude-code-templates]:CLI tool for configuring and monitoring Claude Code(https://github.com/davila7/claude-code-templates)
+7. [ml-explore / mlx-lm]:Run LLMs with MLX(https://github.com/ml-explore/mlx-lm)
+8. [camel-ai / owl]:🦉 OWL: Optimized Workforce Learning for General Multi-Agent Assistance in Real-World Task Automation(https://github.com/camel-ai/owl)
+9. [NVIDIA / warp]:A Python framework for accelerated simulation, data generation and spatial computing.(https://github.com/NVIDIA/warp)
+10. [modelscope / evalscope]:A streamlined and customizable framework for efficient large model (LLM, VLM, AIGC) evaluation and performance benchmarking.(https://github.com/modelscope/evalscope)
+11. [facebookresearch / fairseq]:Facebook AI Research Sequence-to-Sequence Toolkit written in Python.(https://github.com/facebookresearch/fairseq)
+12. [ml-explore / mlx-examples]:Examples in the MLX framework(https://github.com/ml-explore/mlx-examples)
+
+ai ans is:
+ 1. [google / langextract]: 使用LLM从非结构化文本中提取结构化信息的Python库，具有精确的源定位和交互式可视化。（https://github.com/google/langextract）
+2. [ultralytics / ultralytics]: Ultralytics YOLO 🚀，一个快速高效的YOLO目标检测库。（https://github.com/ultralytics/ultralytics）
+3. [neuphonic / neutts]: Neuphonic的设备端TTS模型。（https://github.com/neuphonic/neutts）
+4. [anthropics / skills]: 公共仓库，用于存储智能体技能。（https://github.com/anthropics/skills）
+5. [prowler-cloud / prowler]: Prowler是全球最广泛使用的开源云安全平台，可自动化任何云环境的安全和合规性。（https://github.com/prowler-cloud/prowler）
+6. [davila7 / claude-code-templates]: 用于配置和监控Claude Code的命令行工具。（https://github.com/davila7/claude-code-templates）
+7. [ml-explore / mlx-lm]: 使用MLX运行LLM。（https://github.com/ml-explore/mlx-lm）
+8. [camel-ai / owl]: 🦉 OWL：用于真实世界任务自动化的通用多智能体辅助的优化工作学习。（https://github.com/camel-ai/owl）
+9. [NVIDIA / warp]: 用于加速模拟、数据生成和空间计算的Python框架。（https://github.com/NVIDIA/warp）
+10. [modelscope / evalscope]: 高效的大模型（LLM、VLM、AIGC）评估和性能基准测试的简化且可定制的框架。（https://github.com/modelscope/evalscope）
+11. [facebookresearch / fairseq]: Facebook AI Research序列到序列工具包，用Python编写。（https://github.com/facebookresearch/fairseq）
+12. [ml-explore / mlx-examples]: MLX框架的示例。（https://github.com/ml-explore/mlx-examples）
+
+最惊艳的项目：[ultralytics / ultralytics]: Ultralytics YOLO 🚀，一个快速高效的YOLO目标检测库。
+
+今日趋势项目关注的领域和特点：今日趋势项目主要集中在机器学习、自然语言处理、计算机视觉和云安全等领域，特点包括高效性、易用性和创新性。许多项目都使用了先进的机器学习模型和算法，旨在解决实际问题并推动技术进步。
+
+我是谢苹果，AI信息流2.0，复活了。
+2026-01-17 start the job...
+try at 0 to get trends~
+scrape() status_code: 200
+https://github.com/google/langextract
+https://github.com/OpenBMB/VoxCPM
+https://github.com/sansan0/TrendRadar
+https://github.com/paperless-ngx/paperless-ngx
+https://github.com/anthropics/skills
+https://github.com/neuphonic/neutts
+https://github.com/ultralytics/ultralytics
+https://github.com/NVIDIA/physicsnemo
+https://github.com/Wirasm/PRPs-agentic-eng
+https://github.com/wagtail/wagtail
+https://github.com/prowler-cloud/prowler
+https://github.com/jumpserver/jumpserver
+scape ends
+
+ai is reading, the info is:
+1. [google / langextract]:A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.(https://github.com/google/langextract)
+2. [OpenBMB / VoxCPM]:VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning(https://github.com/OpenBMB/VoxCPM)
+3. [sansan0 / TrendRadar]:🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测。支持 Docker 一键部署，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。⭐(https://github.com/sansan0/TrendRadar)
+4. [paperless-ngx / paperless-ngx]:A community-supported supercharged document management system: scan, index and archive all your documents(https://github.com/paperless-ngx/paperless-ngx)
+5. [anthropics / skills]:Public repository for Agent Skills(https://github.com/anthropics/skills)
+6. [neuphonic / neutts]:On-device TTS model by Neuphonic(https://github.com/neuphonic/neutts)
+7. [ultralytics / ultralytics]:Ultralytics YOLO 🚀(https://github.com/ultralytics/ultralytics)
+8. [NVIDIA / physicsnemo]:Open-source deep-learning framework for building, training, and fine-tuning deep learning models using state-of-the-art Physics-ML methods(https://github.com/NVIDIA/physicsnemo)
+9. [Wirasm / PRPs-agentic-eng]:Prompts, workflows and more for agentic engineering(https://github.com/Wirasm/PRPs-agentic-eng)
+10. [wagtail / wagtail]:A Django content management system focused on flexibility and user experience(https://github.com/wagtail/wagtail)
+11. [prowler-cloud / prowler]:Prowler is the world’s most widely used open-source cloud security platform that automates security and compliance across any cloud environment.(https://github.com/prowler-cloud/prowler)
+12. [jumpserver / jumpserver]:JumpServer is an open-source Privileged Access Management (PAM) platform that provides DevOps and IT teams with on-demand and secure access to SSH, RDP, Kubernetes, Database and RemoteApp endpoints through a web browser.(https://github.com/jumpserver/jumpserver)
+
+ai ans is:
+ 1. [google / langextract]: 使用LLMs从非结构化文本中提取结构化信息的Python库，具有精确的源定位和交互式可视化。(https://github.com/google/langextract)
+2. [OpenBMB / VoxCPM]: VoxCPM：无标记化TTS，用于上下文感知语音生成和真实语音克隆。(https://github.com/OpenBMB/VoxCPM)
+3. [sansan0 / TrendRadar]: 🎯告别信息过载，您的AI舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI翻译 + AI分析简报直推手机，也支持接入MCP架构，赋能AI自然语言对话分析、情感洞察与趋势预测。支持Docker一键部署，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack等渠道智能推送。⭐(https://github.com/sansan0/TrendRadar)
+4. [paperless-ngx / paperless-ngx]: 由社区支持的超级文档管理系统：扫描、索引和存档所有您的文档。(https://github.com/paperless-ngx/paperless-ngx)
+5. [anthropics / skills]: 代理技能的公共存储库。(https://github.com/anthropics/skills)
+6. [neuphonic / neutts]: Neuphonic的设备端TTS模型。(https://github.com/neuphonic/neutts)
+7. [ultralytics / ultralytics]: Ultralytics YOLO 🚀(https://github.com/ultralytics/ultralytics)
+8. [NVIDIA / physicsnemo]: 使用最先进的物理-ML方法构建、训练和微调深度学习模型的开源深度学习框架。(https://github.com/NVIDIA/physicsnemo)
+9. [Wirasm / PRPs-agentic-eng]: 用于代理工程的各种提示、工作流程等。(https://github.com/Wirasm/PRPs-agentic-eng)
+10. [wagtail / wagtail]: 专注于灵活性和用户体验的Django内容管理系统。(https://github.com/wagtail/wagtail)
+11. [prowler-cloud / prowler]: Prowler是世界上使用最广泛的开源云安全平台，可自动化任何云环境的安全和合规性。(https://github.com/prowler-cloud/prowler)
+12. [jumpserver / jumpserver]: JumpServer是一个开源的特权访问管理（PAM）平台，为DevOps和IT团队提供通过Web浏览器按需和安全的访问SSH、RDP、Kubernetes、数据库和远程应用程序端点的功能。(https://github.com/jumpserver/jumpserver)
+
+最惊艳的项目：[ultralytics / ultralytics]: Ultralytics YOLO 🚀，这是一个基于深度学习的目标检测库，以其高性能和易用性而闻名。
+
+今天趋势项目关注的领域和特点：今天的项目涵盖了从自然语言处理、语音技术到云安全和文档管理等多个领域。特点包括使用先进的机器学习模型、提供易于使用的工具和框架，以及强调安全性和用户友好性。
+
+我是谢苹果，AI信息流2.0，复活了。
+2026-01-18 start the job...
+try at 0 to get trends~
+scrape() status_code: 200
+https://github.com/yt-dlp/yt-dlp
+https://github.com/google/langextract
+https://github.com/OpenBMB/VoxCPM
+https://github.com/yichuan-w/LEANN
+https://github.com/Mebus/cupp
+https://github.com/sansan0/TrendRadar
+https://github.com/NVlabs/PyCuVSLAM
+https://github.com/freemocap/freemocap
+https://github.com/lllyasviel/Fooocus
+https://github.com/SkyworkAI/SkyReels-V2
+https://github.com/modelcontextprotocol/python-sdk
+https://github.com/funstory-ai/BabelDOC
+scape ends
+
+ai is reading, the info is:
+1. [yt-dlp / yt-dlp]:A feature-rich command-line audio/video downloader(https://github.com/yt-dlp/yt-dlp)
+2. [google / langextract]:A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.(https://github.com/google/langextract)
+3. [OpenBMB / VoxCPM]:VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning(https://github.com/OpenBMB/VoxCPM)
+4. [yichuan-w / LEANN]:RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.(https://github.com/yichuan-w/LEANN)
+5. [Mebus / cupp]:Common User Passwords Profiler (CUPP)(https://github.com/Mebus/cupp)
+6. [sansan0 / TrendRadar]:⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。(https://github.com/sansan0/TrendRadar)
+7. [NVlabs / PyCuVSLAM]:Highly accurate and efficient VSLAM system for Python(https://github.com/NVlabs/PyCuVSLAM)
+8. [freemocap / freemocap]:Free Motion Capture for Everyone 💀✨(https://github.com/freemocap/freemocap)
+9. [lllyasviel / Fooocus]:Focus on prompting and generating(https://github.com/lllyasviel/Fooocus)
+10. [SkyworkAI / SkyReels-V2]:SkyReels-V2: Infinite-length Film Generative model(https://github.com/SkyworkAI/SkyReels-V2)
+11. [modelcontextprotocol / python-sdk]:The official Python SDK for Model Context Protocol servers and clients(https://github.com/modelcontextprotocol/python-sdk)
+12. [funstory-ai / BabelDOC]:Yet Another Document Translator(https://github.com/funstory-ai/BabelDOC)
+
+ai ans is:
+ 1. [yt-dlp / yt-dlp]:功能丰富的命令行音频/视频下载器
+2. [google / langextract]:使用LLMs从非结构化文本中提取结构化信息的Python库，具有精确的源定位和交互式可视化
+3. [OpenBMB / VoxCPM]:VoxCPM：无标记化TTS，用于上下文感知语音生成和真实语音克隆
+4. [yichuan-w / LEANN]:LEANN：一切皆可RAG。在个人设备上运行快速、准确且100%私密的RAG应用，同时节省97%的存储空间
+5. [Mebus / cupp]:通用用户密码配置文件（CUPP）
+6. [sansan0 / TrendRadar]:AI驱动的舆情和趋势监测工具，支持多平台聚合、RSS和智能警报
+7. [NVlabs / PyCuVSLAM]:针对Python的高度准确和高效的VSLAM系统
+8. [freemocap / freemocap]:面向所有人的免费动作捕捉
+9. [lllyasviel / Fooocus]:专注于提示和生成
+10. [SkyworkAI / SkyReels-V2]:SkyReels-V2：无限长度的电影生成模型
+11. [modelcontextprotocol / python-sdk]:Model Context Protocol服务器和客户端的官方Python SDK
+12. [funstory-ai / BabelDOC]:又一个文档翻译器
+
+惊艳项目推荐：[SkyworkAI / SkyReels-V2]: SkyReels-V2：无限长度的电影生成模型
+
+今日趋势项目关注的领域和特点：AI应用、数据提取与处理、自然语言处理、语音技术、图像处理、动作捕捉、文档翻译等。项目特点包括功能丰富、性能高效、易于使用、开源免费等。
+
+我是谢苹果，AI信息流2.0，复活了。
