@@ -1,0 +1,308 @@
+{
+  "projects": [
+    {
+      "rank": 1,
+      "name": "yt-dlp",
+      "owner": "yt-dlp",
+      "url": "https://github.com/yt-dlp/yt-dlp",
+      "description": "一个功能丰富的命令行音频/视频下载器",
+      "tech_stack": [
+        "Python"
+      ],
+      "use_cases": [
+        "视频下载",
+        "音频下载",
+        "批量下载",
+        "命令行工具"
+      ],
+      "learning_value": 3,
+      "highlights": [
+        "跨平台",
+        "支持多种网站",
+        "命令行操作",
+        "易于使用"
+      ],
+      "difficulty": "入门"
+    },
+    {
+      "rank": 2,
+      "name": "langextract",
+      "owner": "google",
+      "url": "https://github.com/google/langextract",
+      "description": "一个用于从非结构化文本中提取结构化信息的Python库，使用LLMs进行精确的源定位和交互式可视化。",
+      "tech_stack": [
+        "Python",
+        "LLMs"
+      ],
+      "use_cases": [
+        "文本分析",
+        "信息提取",
+        "自然语言处理",
+        "数据可视化"
+      ],
+      "learning_value": 4,
+      "highlights": [
+        "LLMs应用",
+        "源定位",
+        "交互式可视化",
+        "结构化信息提取"
+      ],
+      "difficulty": "进阶"
+    },
+    {
+      "rank": 3,
+      "name": "VoxCPM",
+      "owner": "OpenBMB",
+      "url": "https://github.com/OpenBMB/VoxCPM",
+      "description": "VoxCPM: 无标记化TTS，用于上下文感知语音生成和真实语音克隆",
+      "tech_stack": [
+        "Python",
+        "TTS"
+      ],
+      "use_cases": [
+        "语音合成",
+        "语音克隆",
+        "语音生成",
+        "自然语言处理"
+      ],
+      "learning_value": 4,
+      "highlights": [
+        "无标记化TTS",
+        "上下文感知",
+        "真实语音克隆",
+        "高效"
+      ],
+      "difficulty": "高级"
+    },
+    {
+      "rank": 4,
+      "name": "LEANN",
+      "owner": "yichuan-w",
+      "url": "https://github.com/yichuan-w/LEANN",
+      "description": "使用LEANN在所有事物上进行RAG。在个人设备上运行快速、准确且100%私密的RAG应用程序，同时节省97%的存储空间。",
+      "tech_stack": [
+        "Python",
+        "RAG"
+      ],
+      "use_cases": [
+        "知识检索",
+        "信息检索",
+        "个人知识库",
+        "自然语言处理"
+      ],
+      "learning_value": 4,
+      "highlights": [
+        "存储节省",
+        "快速",
+        "准确",
+        "私密"
+      ],
+      "difficulty": "进阶"
+    },
+    {
+      "rank": 5,
+      "name": "cupp",
+      "owner": "Mebus",
+      "url": "https://github.com/Mebus/cupp",
+      "description": "通用用户密码配置文件分析器（CUPP）",
+      "tech_stack": [
+        "Python"
+      ],
+      "use_cases": [
+        "密码分析",
+        "安全研究",
+        "密码破解",
+        "安全工具"
+      ],
+      "learning_value": 2,
+      "highlights": [
+        "密码分析",
+        "通用性",
+        "安全研究"
+      ],
+      "difficulty": "进阶"
+    },
+    {
+      "rank": 6,
+      "name": "TrendRadar",
+      "owner": "sansan0",
+      "url": "https://github.com/sansan0/TrendRadar",
+      "description": "AI驱动的公共舆论和趋势监控工具，具有多平台聚合、RSS和智能警报功能。",
+      "tech_stack": [
+        "Python",
+        "AI",
+        "自然语言处理"
+      ],
+      "use_cases": [
+        "舆论监控",
+        "趋势分析",
+        "智能警报",
+        "数据聚合"
+      ],
+      "learning_value": 4,
+      "highlights": [
+        "AI驱动",
+        "多平台聚合",
+        "智能警报",
+        "数据本地化"
+      ],
+      "difficulty": "进阶"
+    },
+    {
+      "rank": 7,
+      "name": "PyCuVSLAM",
+      "owner": "NVlabs",
+      "url": "https://github.com/NVlabs/PyCuVSLAM",
+      "description": "Python的高精度和高效的VSLAM系统",
+      "tech_stack": [
+        "Python",
+        "VSLAM"
+      ],
+      "use_cases": [
+        "计算机视觉",
+        "SLAM",
+        "机器人",
+        "增强现实"
+      ],
+      "learning_value": 5,
+      "highlights": [
+        "高精度",
+        "高效",
+        "Python接口",
+        "计算机视觉"
+      ],
+      "difficulty": "高级"
+    },
+    {
+      "rank": 8,
+      "name": "freemocap",
+      "owner": "freemocap",
+      "url": "https://github.com/freemocap/freemocap",
+      "description": "面向所有人的免费动作捕捉",
+      "tech_stack": [
+        "Python",
+        "动作捕捉"
+      ],
+      "use_cases": [
+        "动作捕捉",
+        "动画制作",
+        "游戏开发",
+        "虚拟现实"
+      ],
+      "learning_value": 4,
+      "highlights": [
+        "免费",
+        "动作捕捉",
+        "动画制作",
+        "虚拟现实"
+      ],
+      "difficulty": "进阶"
+    },
+    {
+      "rank": 9,
+      "name": "Fooocus",
+      "owner": "lllyasviel",
+      "url": "https://github.com/lllyasviel/Fooocus",
+      "description": "专注于提示和生成",
+      "tech_stack": [
+        "Python",
+        "AI"
+      ],
+      "use_cases": [
+        "AI生成",
+        "提示工程",
+        "自然语言处理",
+        "AI应用"
+      ],
+      "learning_value": 4,
+      "highlights": [
+        "提示工程",
+        "AI生成",
+        "自然语言处理",
+        "AI应用"
+      ],
+      "difficulty": "进阶"
+    },
+    {
+      "rank": 10,
+      "name": "SkyReels-V2",
+      "owner": "SkyworkAI",
+      "url": "https://github.com/SkyworkAI/SkyReels-V2",
+      "description": "无限长度的电影生成模型",
+      "tech_stack": [
+        "Python",
+        "AI"
+      ],
+      "use_cases": [
+        "电影生成",
+        "AI艺术",
+        "内容创作",
+        "AI应用"
+      ],
+      "learning_value": 5,
+      "highlights": [
+        "无限长度",
+        "电影生成",
+        "AI艺术",
+        "内容创作"
+      ],
+      "difficulty": "高级"
+    },
+    {
+      "rank": 11,
+      "name": "python-sdk",
+      "owner": "modelcontextprotocol",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "description": "Model Context Protocol的官方Python SDK",
+      "tech_stack": [
+        "Python"
+      ],
+      "use_cases": [
+        "模型上下文",
+        "数据管理",
+        "AI应用",
+        "软件开发"
+      ],
+      "learning_value": 3,
+      "highlights": [
+        "模型上下文",
+        "数据管理",
+        "Python SDK",
+        "软件开发"
+      ],
+      "difficulty": "进阶"
+    },
+    {
+      "rank": 12,
+      "name": "BabelDOC",
+      "owner": "funstory-ai",
+      "url": "https://github.com/funstory-ai/BabelDOC",
+      "description": "又一个文档翻译器",
+      "tech_stack": [
+        "Python",
+        "翻译"
+      ],
+      "use_cases": [
+        "文档翻译",
+        "多语言支持",
+        "内容创作",
+        "自然语言处理"
+      ],
+      "learning_value": 3,
+      "highlights": [
+        "文档翻译",
+        "多语言支持",
+        "内容创作",
+        "自然语言处理"
+      ],
+      "difficulty": "入门"
+    }
+  ],
+  "star_project": {
+    "name": "SkyReels-V2",
+    "owner": "SkyworkAI",
+    "reason": "该项目展示了无限长度的电影生成模型，代表了AI在内容创作领域的突破性进展，具有极高的学习价值和未来潜力。"
+  },
+  "trend_summary": "今日趋势项目关注领域包括AI应用、自然语言处理、计算机视觉、安全研究等，特点为技术先进、应用广泛、学习价值高。",
+  "signature": "我是谢苹果，AI信息流2.0，复活了。"
+}
