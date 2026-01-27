@@ -3,7 +3,7 @@
 
 # how to use
 ## linux deploy
-进入虚拟环境 ```source tenv/bin/activate```
+进入虚拟环境 ```source venv/bin/activate```
 
 将程序挂在后台运行  ``` nohup python -u app.py > output.log 2>&1 &```
 
@@ -40,6 +40,7 @@ web3信息流：```nohup python -u web3_app.py > web3.log 2>&1 &```
 
 - [x] 2025上半年，从事AI+X 1.0社区，从0到1到10再到0。
 - [x] 2026年1月19日左右，vibe coding大火。于是阿里云服务器再次购买，用claude code驱动，项目复活：https://www.aixpg.one/ai-info-stream 。这是我人生的第一个产品呀。AI信息流 2.0.
+- [x] 1.19，通宵，调试claude code，但是有点费劲。网络不佳，回头再去测试。
 
 # to_do
 - [x] 写一个脚本，遍历群发一些邮件，在在遇到些情况说明的时候

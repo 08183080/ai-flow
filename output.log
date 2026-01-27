@@ -1,0 +1,625 @@
+nohup: ignoring input
+2026-01-19 start the job...
+try at 0 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 1 failed with error: write() argument must be str, not None
+try at 1 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 2 failed with error: write() argument must be str, not None
+try at 2 to get trends~
+scrape() status_code: 200
+https://github.com/OpenBMB/VoxCPM
+https://github.com/google/langextract
+https://github.com/ahujasid/blender-mcp
+https://github.com/yichuan-w/LEANN
+https://github.com/AtsushiSakai/PythonRobotics
+https://github.com/Mebus/cupp
+https://github.com/freqtrade/freqtrade
+https://github.com/yt-dlp/yt-dlp
+https://github.com/The-Pocket/PocketFlow
+https://github.com/paperless-ngx/paperless-ngx
+https://github.com/ComposioHQ/awesome-claude-skills
+https://github.com/yusufkaraaslan/Skill_Seekers
+https://github.com/davila7/claude-code-templates
+https://github.com/meizhong986/WhisperJAV
+scape ends
+
+ai is reading, the info is:
+1. [OpenBMB / VoxCPM]:VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning(https://github.com/OpenBMB/VoxCPM)
+2. [google / langextract]:A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.(https://github.com/google/langextract)
+3. [ahujasid / blender-mcp]:(https://github.com/ahujasid/blender-mcp)
+4. [yichuan-w / LEANN]:RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.(https://github.com/yichuan-w/LEANN)
+5. [AtsushiSakai / PythonRobotics]:Python sample codes and textbook for robotics algorithms.(https://github.com/AtsushiSakai/PythonRobotics)
+6. [Mebus / cupp]:Common User Passwords Profiler (CUPP)(https://github.com/Mebus/cupp)
+7. [freqtrade / freqtrade]:Free, open source crypto trading bot(https://github.com/freqtrade/freqtrade)
+8. [yt-dlp / yt-dlp]:A feature-rich command-line audio/video downloader(https://github.com/yt-dlp/yt-dlp)
+9. [The-Pocket / PocketFlow]:Pocket Flow: 100-line LLM framework. Let Agents build Agents!(https://github.com/The-Pocket/PocketFlow)
+10. [paperless-ngx / paperless-ngx]:A community-supported supercharged document management system: scan, index and archive all your documents(https://github.com/paperless-ngx/paperless-ngx)
+11. [ComposioHQ / awesome-claude-skills]:A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows(https://github.com/ComposioHQ/awesome-claude-skills)
+12. [yusufkaraaslan / Skill_Seekers]:Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection(https://github.com/yusufkaraaslan/Skill_Seekers)
+13. [davila7 / claude-code-templates]:CLI tool for configuring and monitoring Claude Code(https://github.com/davila7/claude-code-templates)
+14. [meizhong986 / WhisperJAV]:(https://github.com/meizhong986/WhisperJAV)
+
+ai ans is:
+ 1. [OpenBMB / VoxCPM]: VoxCPM: 无分词语音生成和真实语音克隆的上下文感知语音合成(https://github.com/OpenBMB/VoxCPM)
+2. [google / langextract]: 使用LLMs从非结构化文本中提取结构化信息的Python库，具有精确的源定位和交互式可视化。(https://github.com/google/langextract)
+3. [ahujasid / blender-mcp]: (https://github.com/ahujasid/blender-mcp)
+4. [yichuan-w / LEANN]: LEANN，一切皆RAG。在个人设备上运行快速、准确且100%私有的RAG应用，节省97%的存储空间。(https://github.com/yichuan-w/LEANN)
+5. [AtsushiSakai / PythonRobotics]: 机器人算法的Python示例代码和教科书。(https://github.com/AtsushiSakai/PythonRobotics)
+6. [Mebus / cupp]: 公共用户密码分析器 (CUPP)(https://github.com/Mebus/cupp)
+7. [freqtrade / freqtrade]: 免费开源的加密货币交易机器人(https://github.com/freqtrade/freqtrade)
+8. [yt-dlp / yt-dlp]: 功能丰富的命令行音频/视频下载器(https://github.com/yt-dlp/yt-dlp)
+9. [The-Pocket / PocketFlow]: Pocket Flow：100行LLM框架。让代理构建代理！(https://github.com/The-Pocket/PocketFlow)
+10. [paperless-ngx / paperless-ngx]: 由社区支持的超强文档管理系统：扫描、索引和归档所有文档(https://github.com/paperless-ngx/paperless-ngx)
+11. [ComposioHQ / awesome-claude-skills]: Claude Skills、资源和工具的精选列表，用于自定义Claude AI工作流(https://github.com/ComposioHQ/awesome-claude-skills)
+12. [yusufkaraaslan / Skill_Seekers]: 将文档网站、GitHub仓库和PDF转换为Claude AI技能，自动检测冲突(https://github.com/yusufkaraaslan/Skill_Seekers)
+13. [davila7 / claude-code-templates]: 配置和监控Claude Code的CLI工具(https://github.com/davila7/claude-code-templates)
+14. [meizhong986 / WhisperJAV]: (https://github.com/meizhong986/WhisperJAV)
+
+最惊艳的项目：[The-Pocket / PocketFlow](https://github.com/The-Pocket/PocketFlow) - 100行LLM框架，让代理构建代理！
+
+今日趋势项目关注的领域和特点：今日趋势项目涵盖了语音合成、文本处理、数据管理、加密货币交易、文档管理系统等多个领域，其中不乏创新性的项目，如无分词语音合成技术、基于LLMs的文本处理库和智能交易机器人。项目特点包括高度自动化、高效处理、以及社区支持性强。我是谢苹果，AI信息流2.0，复活了。
+2026-01-20 start the job...
+try at 0 to get trends~
+scrape() status_code: 200
+https://github.com/microsoft/agent-lightning
+https://github.com/google/langextract
+https://github.com/yichuan-w/LEANN
+https://github.com/VectifyAI/PageIndex
+https://github.com/public-apis/public-apis
+https://github.com/ahujasid/blender-mcp
+https://github.com/verygoodplugins/automem
+https://github.com/EveryInc/compound-engineering-plugin
+https://github.com/yusufkaraaslan/Skill_Seekers
+https://github.com/OpenBMB/VoxCPM
+https://github.com/thu-ml/tianshou
+https://github.com/davila7/claude-code-templates
+https://github.com/serengil/deepface
+scape ends
+
+ai is reading, the info is:
+1. [microsoft / agent-lightning]:The absolute trainer to light up AI agents.(https://github.com/microsoft/agent-lightning)
+2. [google / langextract]:A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.(https://github.com/google/langextract)
+3. [yichuan-w / LEANN]:RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.(https://github.com/yichuan-w/LEANN)
+4. [VectifyAI / PageIndex]:📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG(https://github.com/VectifyAI/PageIndex)
+5. [public-apis / public-apis]:A collective list of free APIs(https://github.com/public-apis/public-apis)
+6. [ahujasid / blender-mcp]:(https://github.com/ahujasid/blender-mcp)
+7. [verygoodplugins / automem]:AutoMem is a graph-vector memory service that gives AI assistants durable, relational memory:(https://github.com/verygoodplugins/automem)
+8. [EveryInc / compound-engineering-plugin]:Official Claude Code compound engineering plugin(https://github.com/EveryInc/compound-engineering-plugin)
+9. [yusufkaraaslan / Skill_Seekers]:Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection(https://github.com/yusufkaraaslan/Skill_Seekers)
+10. [OpenBMB / VoxCPM]:VoxCPM: Tokenizer-Free TTS for Context-Aware Speech Generation and True-to-Life Voice Cloning(https://github.com/OpenBMB/VoxCPM)
+11. [thu-ml / tianshou]:An elegant PyTorch deep reinforcement learning library.(https://github.com/thu-ml/tianshou)
+12. [davila7 / claude-code-templates]:CLI tool for configuring and monitoring Claude Code(https://github.com/davila7/claude-code-templates)
+13. [serengil / deepface]:A Lightweight Face Recognition and Facial Attribute Analysis (Age, Gender, Emotion and Race) Library for Python(https://github.com/serengil/deepface)
+
+ai ans is:
+ 1. [microsoft/agent-lightning]: 绝对训练器，点亮AI智能体。（https://github.com/microsoft/agent-lightning）
+2. [google/langextract]: 使用LLM从非结构化文本中提取结构化信息的Python库，具有精确的源定位和交互式可视化。（https://github.com/google/langextract）
+3. [yichuan-w/LEANN]: 使用LEANN在一切事物上进行RAG。在个人设备上运行快速、准确且100%私密的RAG应用程序的同时，节省97%的存储空间。（https://github.com/yichuan-w/LEANN）
+4. [VectifyAI/PageIndex]: 📑 PageIndex：无向量、基于推理的RAG文档索引。（https://github.com/VectifyAI/PageIndex）
+5. [public-apis/public-apis]: 一个免费的API集合列表。（https://github.com/public-apis/public-apis）
+
+最惊艳的项目推荐：
+[serengil/deepface]: 一个轻量级的Python人脸识别和面部属性分析（年龄、性别、情绪和种族）库。（https://github.com/serengil/deepface）
+
+今日趋势项目关注的领域和特点：
+今日的项目趋势主要集中在人工智能、机器学习和数据科学领域，特点包括高效的数据处理、机器学习模型的优化以及API的广泛应用。这些项目展现了开源社区在技术创新和跨领域融合方面的活跃状态。
+
+我是谢苹果，AI信息流2.0，复活了。
+2026-01-21 start the job...
+try at 0 to get trends~
+scrape() status_code: 200
+https://github.com/EveryInc/compound-engineering-plugin
+https://github.com/xai-org/grok-1
+https://github.com/microsoft/agent-lightning
+https://github.com/VectifyAI/PageIndex
+https://github.com/ahujasid/blender-mcp
+https://github.com/PaddlePaddle/PaddleOCR
+https://github.com/datawhalechina/all-in-rag
+https://github.com/pytorch/executorch
+https://github.com/lzhoang2801/OpCore-Simplify
+https://github.com/karpathy/nanochat
+https://github.com/vllm-project/vllm
+https://github.com/yichuan-w/LEANN
+https://github.com/KellerJordan/modded-nanogpt
+scape ends
+
+ai is reading, the info is:
+1. [EveryInc / compound-engineering-plugin]:Official Claude Code compound engineering plugin(https://github.com/EveryInc/compound-engineering-plugin)
+2. [xai-org / grok-1]:Grok open release(https://github.com/xai-org/grok-1)
+3. [microsoft / agent-lightning]:The absolute trainer to light up AI agents.(https://github.com/microsoft/agent-lightning)
+4. [VectifyAI / PageIndex]:📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG(https://github.com/VectifyAI/PageIndex)
+5. [ahujasid / blender-mcp]:(https://github.com/ahujasid/blender-mcp)
+6. [PaddlePaddle / PaddleOCR]:Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.(https://github.com/PaddlePaddle/PaddleOCR)
+7. [datawhalechina / all-in-rag]:🔍大模型应用开发实战一：RAG 技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/(https://github.com/datawhalechina/all-in-rag)
+8. [pytorch / executorch]:On-device AI across mobile, embedded and edge for PyTorch(https://github.com/pytorch/executorch)
+9. [lzhoang2801 / OpCore-Simplify]:A tool designed to simplify the creation of OpenCore EFI(https://github.com/lzhoang2801/OpCore-Simplify)
+10. [karpathy / nanochat]:The best ChatGPT that $100 can buy.(https://github.com/karpathy/nanochat)
+11. [vllm-project / vllm]:A high-throughput and memory-efficient inference and serving engine for LLMs(https://github.com/vllm-project/vllm)
+12. [yichuan-w / LEANN]:RAG on Everything with LEANN. Enjoy 97% storage savings while running a fast, accurate, and 100% private RAG application on your personal device.(https://github.com/yichuan-w/LEANN)
+13. [KellerJordan / modded-nanogpt]:NanoGPT (124M) in 2 minutes(https://github.com/KellerJordan/modded-nanogpt)
+
+ai ans is:
+ 1. [EveryInc / compound-engineering-plugin]: 官方Claude代码复合工程插件（https://github.com/EveryInc/compound-engineering-plugin）
+   - 翻译：官方Claude代码复合工程插件，一个用于增强代码开发效率的工具。
+
+2. [xai-org / grok-1]: Grok开源发布（https://github.com/xai-org/grok-1）
+   - 翻译：Grok开源项目，一个用于数据分析和模式识别的工具。
+
+3. [microsoft / agent-lightning]: 点亮AI代理的绝对训练器。（https://github.com/microsoft/agent-lightning）
+   - 翻译：微软推出的AI代理训练工具，旨在提升AI代理的性能。
+
+4. [VectifyAI / PageIndex]: 📑 PageIndex：无向量、基于推理的RAG文档索引（https://github.com/VectifyAI/PageIndex）
+   - 翻译：PageIndex是一个文档索引工具，适用于无向量、基于推理的RAG。
+
+5. [ahujasid / blender-mcp]:(https://github.com/ahujasid/blender-mcp)
+   - 翻译：Blender的MCP插件，用于扩展Blender的功能。
+
+6. [PaddlePaddle / PaddleOCR]: 将任何PDF或图像文档转换为结构化数据，用于AI。一个强大、轻量级的OCR工具包，连接图像/PDF和LLM之间的差距。支持100多种语言。（https://github.com/PaddlePaddle/PaddleOCR）
+   - 翻译：PaddleOCR是一个将PDF或图像文档转换为结构化数据的工具，适用于多种语言。
+
+7. [datawhalechina / all-in-rag]: 🔍大模型应用开发实战一：RAG技术全栈指南，在线阅读地址：https://datawhalechina.github.io/all-in-rag/（https://github.com/datawhalechina/all-in-rag）
+   - 翻译：大模型应用开发实战指南，全面介绍RAG技术。
+
+8. [pytorch / executorch]: 在移动、嵌入式和边缘设备上实现PyTorch的AI。（https://github.com/pytorch/executorch）
+   - 翻译：PyTorch的executorch，旨在在多种设备上实现AI。
+
+9. [lzhoang2801 / OpCore-Simplify]: 一个用于简化OpenCore EFI创建的工具（https://github.com/lzhoang2801/OpCore-Simplify）
+   - 翻译：OpCore-Simplify是一个简化OpenCore EFI创建过程的工具。
+
+10. [karpathy / nanochat]: 100美元能买到的最好的ChatGPT。（https://github.com/karpathy/nanochat）
+    - 翻译：Nanochat是一个基于ChatGPT的轻量级聊天机器人。
+
+11. [vllm-project / vllm]: LLM的高吞吐量和内存高效推理和托管引擎（https://github.com/vllm-project/vllm）
+    - 翻译：vllm是一个为LLM提供高效推理和托管服务的引擎。
+
+12. [yichuan-w / LEANN]: LEANN上的RAG一切，享受97%的存储节省，同时运行快速、准确且100%私有的RAG应用程序。（https://github.com/yichuan-w/LEANN）
+    - 翻译：LEANN是一个基于RAG技术的应用程序，提供高存储效率和隐私保护。
+
+13. [KellerJordan / modded-nanogpt]: 2分钟内完成NanoGPT (124M)的修改（https://github.com/KellerJordan/modded-nanogpt）
+    - 翻译：对NanoGPT (124M)进行修改，仅需2分钟。
+
+惊艳项目推荐：
+- [karpathy / nanochat]: 100美元能买到的最好的ChatGPT。（https://github.com/karpathy/nanochat）
+
+今日趋势项目关注的领域和特点：
+- AI代理训练与优化
+- 数据分析与模式识别
+- 文档索引与处理
+- OCR技术与文档结构化
+- 大模型应用开发
+- AI在移动和边缘设备上的应用
+- RAG技术的研究与应用
+
+我是谢苹果，AI信息流2.0，复活了。
+2026-01-22 start the job...
+try at 0 to get trends~
+scrape() status_code: 200
+https://github.com/xai-org/grok-1
+https://github.com/microsoft/agent-lightning
+https://github.com/yusufkaraaslan/Skill_Seekers
+https://github.com/Free-TV/IPTV
+https://github.com/anthropics/skills
+https://github.com/donnemartin/system-design-primer
+https://github.com/PyCQA/bandit
+https://github.com/vllm-project/vllm
+https://github.com/OWASP/Nettacker
+https://github.com/microsoft/agent-framework
+scape ends
+
+ai is reading, the info is:
+1. [xai-org / grok-1]:Grok open release(https://github.com/xai-org/grok-1)
+2. [microsoft / agent-lightning]:The absolute trainer to light up AI agents.(https://github.com/microsoft/agent-lightning)
+3. [yusufkaraaslan / Skill_Seekers]:Convert documentation websites, GitHub repositories, and PDFs into Claude AI skills with automatic conflict detection(https://github.com/yusufkaraaslan/Skill_Seekers)
+4. [Free-TV / IPTV]:M3U Playlist for free TV channels(https://github.com/Free-TV/IPTV)
+5. [anthropics / skills]:Public repository for Agent Skills(https://github.com/anthropics/skills)
+6. [donnemartin / system-design-primer]:Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.(https://github.com/donnemartin/system-design-primer)
+7. [PyCQA / bandit]:Bandit is a tool designed to find common security issues in Python code.(https://github.com/PyCQA/bandit)
+8. [vllm-project / vllm]:A high-throughput and memory-efficient inference and serving engine for LLMs(https://github.com/vllm-project/vllm)
+9. [OWASP / Nettacker]:Automated Penetration Testing Framework - Open-Source Vulnerability Scanner - Vulnerability Management(https://github.com/OWASP/Nettacker)
+10. [microsoft / agent-framework]:A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET.(https://github.com/microsoft/agent-framework)
+
+ai ans is:
+ 1. [xai-org / grok-1]: Grok开源发布（https://github.com/xai-org/grok-1）
+   Grok是一个开源项目，旨在提供一种方法来理解和解释机器学习模型的行为。
+
+2. [microsoft / agent-lightning]: AI代理的绝对训练器。（https://github.com/microsoft/agent-lightning）
+   这是一个由微软开发的项目，旨在为AI代理提供强大的训练支持。
+
+3. [yusufkaraaslan / Skill_Seekers]: 将文档网站、GitHub仓库和PDF转换为Claude AI技能，具有自动冲突检测。（https://github.com/yusufkaraaslan/Skill_Seekers）
+   Skill Seekers项目可以将多种文档资源转换为AI技能，并自动检测潜在冲突。
+
+4. [Free-TV / IPTV]: 免费电视频道的M3U播放列表。（https://github.com/Free-TV/IPTV）
+   这是一个提供免费电视频道M3U播放列表的项目。
+
+5. [anthropics / skills]: Agent Skills的公共仓库。（https://github.com/anthropics/skills）
+   该项目是一个用于存储和共享AI代理技能的公共仓库。
+
+6. [donnemartin / system-design-primer]: 学习如何设计大规模系统。为系统设计面试做准备。包括Anki闪卡。（https://github.com/donnemartin/system-design-primer）
+   这是一个系统设计入门指南，包括面试准备和实用的学习资源。
+
+7. [PyCQA / bandit]: Bandit是一个旨在发现Python代码中常见安全问题的工具。（https://github.com/PyCQA/bandit）
+   Bandit是一个强大的安全工具，可以帮助开发者识别Python代码中的潜在安全风险。
+
+8. [vllm-project / vllm]: LLMs的高吞吐量和内存高效推理和托管引擎。（https://github.com/vllm-project/vllm）
+   vllm是一个为大型语言模型（LLMs）提供高效推理和服务的引擎。
+
+9. [OWASP / Nettacker]: 自动渗透测试框架 - 开源漏洞扫描器 - 漏洞管理。（https://github.com/OWASP/Nettacker）
+   Nettacker是一个自动化渗透测试框架，用于扫描和识别网络漏洞。
+
+10. [microsoft / agent-framework]: 构建AI代理和多代理工作流的框架，支持Python和.NET。（https://github.com/microsoft/agent-framework）
+    这是一个由微软提供的框架，用于构建和部署AI代理和复杂的工作流。
+
+最惊艳的项目：[vllm-project / vllm]: LLMs的高吞吐量和内存高效推理和托管引擎。
+
+今天趋势项目关注的领域和特点：主要集中在AI代理、系统设计、安全漏洞扫描和大型语言模型（LLMs）的推理和托管。这些项目体现了技术发展的前沿趋势，包括AI的广泛应用和安全性问题的日益重视。
+
+我是谢苹果，AI信息流2.0，复活了。
+2026-01-23 start the job...
+try at 0 to get trends~
+scrape() status_code: 200
+https://github.com/microsoft/VibeVoice
+https://github.com/browser-use/browser-use
+https://github.com/Asabeneh/30-Days-Of-Python
+https://github.com/OpenBMB/UltraRAG
+https://github.com/KellerJordan/modded-nanogpt
+https://github.com/xai-org/grok-1
+https://github.com/topoteretes/cognee
+https://github.com/vllm-project/vllm
+https://github.com/bytedance/deer-flow
+https://github.com/donnemartin/system-design-primer
+https://github.com/anthropics/skills
+https://github.com/ruvnet/wifi-densepose
+https://github.com/microsoft/markitdown
+https://github.com/Shubhamsaboo/awesome-llm-apps
+https://github.com/NVIDIA/NeMo-Agent-Toolkit
+https://github.com/jamwithai/arxiv-paper-curator
+scape ends
+
+ai is reading, the info is:
+1. [microsoft / VibeVoice]:Open-Source Frontier Voice AI(https://github.com/microsoft/VibeVoice)
+2. [browser-use / browser-use]:🌐 Make websites accessible for AI agents. Automate tasks online with ease.(https://github.com/browser-use/browser-use)
+3. [Asabeneh / 30-Days-Of-Python]:The 30 Days of Python programming challenge is a step-by-step guide to learn the Python programming language in 30 days. This challenge may take more than 100 days. Follow your own pace. These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw(https://github.com/Asabeneh/30-Days-Of-Python)
+4. [OpenBMB / UltraRAG]:UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines(https://github.com/OpenBMB/UltraRAG)
+5. [KellerJordan / modded-nanogpt]:NanoGPT (124M) in 2 minutes(https://github.com/KellerJordan/modded-nanogpt)
+6. [xai-org / grok-1]:Grok open release(https://github.com/xai-org/grok-1)
+7. [topoteretes / cognee]:Memory for AI Agents in 6 lines of code(https://github.com/topoteretes/cognee)
+8. [vllm-project / vllm]:A high-throughput and memory-efficient inference and serving engine for LLMs(https://github.com/vllm-project/vllm)
+9. [bytedance / deer-flow]:DeerFlow is a community-driven Deep Research framework, combining language models with tools like web search, crawling, and Python execution, while contributing back to the open-source community.(https://github.com/bytedance/deer-flow)
+10. [donnemartin / system-design-primer]:Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.(https://github.com/donnemartin/system-design-primer)
+11. [anthropics / skills]:Public repository for Agent Skills(https://github.com/anthropics/skills)
+12. [ruvnet / wifi-densepose]:Production-ready implementation of InvisPose - a revolutionary WiFi-based dense human pose estimation system that enables real-time full-body tracking through walls using commodity mesh routers(https://github.com/ruvnet/wifi-densepose)
+13. [microsoft / markitdown]:Python tool for converting files and office documents to Markdown.(https://github.com/microsoft/markitdown)
+14. [Shubhamsaboo / awesome-llm-apps]:Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.(https://github.com/Shubhamsaboo/awesome-llm-apps)
+15. [NVIDIA / NeMo-Agent-Toolkit]:The NVIDIA NeMo Agent toolkit is an open-source library for efficiently connecting and optimizing teams of AI agents.(https://github.com/NVIDIA/NeMo-Agent-Toolkit)
+16. [jamwithai / arxiv-paper-curator]:(https://github.com/jamwithai/arxiv-paper-curator)
+
+ai ans is:
+ 1. [microsoft / VibeVoice]: 开源前沿语音AI（https://github.com/microsoft/VibeVoice）
+   开源项目，专注于语音AI技术。
+
+2. [browser-use / browser-use]: 🌐 使网站对AI代理可访问。轻松在线自动化任务。（https://github.com/browser-use/browser-use）
+   一个使网站对AI代理可访问的自动化工具。
+
+3. [Asabeneh / 30-Days-Of-Python]: Python编程挑战30天，逐步指导学习Python编程语言。（https://github.com/Asabeneh/30-Days-Of-Python）
+   Python编程学习项目。
+
+4. [OpenBMB / UltraRAG]: UltraRAG v3：一个用于构建复杂和创新的RAG管道的低代码MCP框架。（https://github.com/OpenBMB/UltraRAG）
+   用于构建复杂和创新的RAG管道的开源框架。
+
+5. [KellerJordan / modded-nanogpt]: 2分钟内安装NanoGPT (124M)。（https://github.com/KellerJordan/modded-nanogpt）
+   快速安装和配置NanoGPT模型。
+
+6. [xai-org / grok-1]: Grok开源发布。（https://github.com/xai-org/grok-1）
+   开源项目，提供Grok工具。
+
+7. [topoteretes / cognee]: 6行代码实现AI代理的内存。（https://github.com/topoteretes/cognee）
+   简化AI代理内存实现的工具。
+
+8. [vllm-project / vllm]: 高吞吐量和内存高效的LLM推理和服务引擎。（https://github.com/vllm-project/vllm）
+   高效的LLM推理和服务引擎。
+
+9. [bytedance / deer-flow]: DeerFlow是一个社区驱动的深度研究框架，结合语言模型和工具如网络搜索、爬取和Python执行，同时回馈开源社区。（https://github.com/bytedance/deer-flow）
+   结合多种工具的深度研究框架。
+
+10. [donnemartin / system-design-primer]: 学习如何设计大型系统。准备系统设计面试。包括Anki闪卡。（https://github.com/donnemartin/system-design-primer）
+    系统设计学习和准备资源。
+
+11. [anthropics / skills]: 代理技能的公共仓库。（https://github.com/anthropics/skills）
+    专注于代理技能的开源项目。
+
+12. [ruvnet / wifi-densepose]: InvisPose的生产级实现，一个革命性的基于WiFi的人体姿态估计系统，通过普通网状路由器实现墙后实时全身跟踪。（https://github.com/ruvnet/wifi-densepose）
+    基于WiFi的人体姿态估计系统。
+
+13. [microsoft / markitdown]: 将文件和办公文档转换为Markdown的Python工具。（https://github.com/microsoft/markitdown）
+    文档转换工具。
+
+14. [Shubhamsaboo / awesome-llm-apps]: 收集了使用AI代理和RAG的LLM应用。（https://github.com/Shubhamsaboo/awesome-llm-apps）
+    LLM应用集合。
+
+15. [NVIDIA / NeMo-Agent-Toolkit]: NVIDIA NeMo Agent工具包是一个开源库，用于高效连接和优化AI代理团队。（https://github.com/NVIDIA/NeMo-Agent-Toolkit）
+    AI代理团队连接和优化的工具库。
+
+16. [jamwithai / arxiv-paper-curator]: (https://github.com/jamwithai/arxiv-paper-curator)
+    ArXiv论文管理器。
+
+**最惊艳项目推荐：**
+[microsoft / VibeVoice]: 开源前沿语音AI（https://github.com/microsoft/VibeVoice）
+
+**今日趋势项目关注领域和特点：**
+今日的趋势项目集中在人工智能、编程教育和系统设计领域，特点包括开源、跨学科应用、以及与AI相关的工具和框架开发。这些项目体现了开源社区在推动技术进步和创新方面的活跃度和多样性。我是谢苹果，AI信息流2.0，复活了。
+2026-01-24 start the job...
+try at 0 to get trends~
+scrape() status_code: 200
+https://github.com/VectifyAI/PageIndex
+https://github.com/OpenBMB/UltraRAG
+https://github.com/browser-use/browser-use
+https://github.com/Blaizzy/mlx-audio
+https://github.com/microsoft/VibeVoice
+https://github.com/anthropics/skills
+https://github.com/Polymarket/agents
+https://github.com/business-science/ai-data-science-team
+https://github.com/roboflow/rf-detr
+https://github.com/AI4Finance-Foundation/FinRL-Trading
+https://github.com/QwenLM/Qwen3
+https://github.com/marimo-team/marimo
+https://github.com/github/spec-kit
+https://github.com/Shubhamsaboo/awesome-llm-apps
+https://github.com/kyutai-labs/moshi
+scape ends
+
+ai is reading, the info is:
+1. [VectifyAI / PageIndex]:📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG(https://github.com/VectifyAI/PageIndex)
+2. [OpenBMB / UltraRAG]:UltraRAG v3: A Low-Code MCP Framework for Building Complex and Innovative RAG Pipelines(https://github.com/OpenBMB/UltraRAG)
+3. [browser-use / browser-use]:🌐 Make websites accessible for AI agents. Automate tasks online with ease.(https://github.com/browser-use/browser-use)
+4. [Blaizzy / mlx-audio]:A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.(https://github.com/Blaizzy/mlx-audio)
+5. [microsoft / VibeVoice]:Open-Source Frontier Voice AI(https://github.com/microsoft/VibeVoice)
+6. [anthropics / skills]:Public repository for Agent Skills(https://github.com/anthropics/skills)
+7. [Polymarket / agents]:Trade autonomously on Polymarket using AI Agents(https://github.com/Polymarket/agents)
+8. [business-science / ai-data-science-team]:An AI-powered data science team of agents to help you perform common data science tasks 10X faster.(https://github.com/business-science/ai-data-science-team)
+9. [roboflow / rf-detr]:RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO and designed for fine-tuning.(https://github.com/roboflow/rf-detr)
+10. [AI4Finance-Foundation / FinRL-Trading]:For trading. Please star.(https://github.com/AI4Finance-Foundation/FinRL-Trading)
+11. [QwenLM / Qwen3]:Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud.(https://github.com/QwenLM/Qwen3)
+12. [marimo-team / marimo]:A reactive notebook for Python — run reproducible experiments, query with SQL, execute as a script, deploy as an app, and version with git. Stored as pure Python. All in a modern, AI-native editor.(https://github.com/marimo-team/marimo)
+13. [github / spec-kit]:💫 Toolkit to help you get started with Spec-Driven Development(https://github.com/github/spec-kit)
+14. [Shubhamsaboo / awesome-llm-apps]:Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.(https://github.com/Shubhamsaboo/awesome-llm-apps)
+15. [kyutai-labs / moshi]:Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-the-art streaming neural audio codec.(https://github.com/kyutai-labs/moshi)
+
+ai ans is:
+ 📑 PageIndex: 无向量文档索引，基于推理的RAG（https://github.com/VectifyAI/PageIndex）
+🌐 UltraRAG v3：一个低代码MCP框架，用于构建复杂和创新RAG管道（https://github.com/OpenBMB/UltraRAG）
+🌐 通过browser-use使网站对AI代理友好。轻松自动化在线任务（https://github.com/browser-use/browser-use）
+🌐 基于Apple MLX框架的文本到语音（TTS）、语音到文本（STT）和语音到语音（STS）库，提供在Apple Silicon上的高效语音分析（https://github.com/Blaizzy/mlx-audio）
+🌐 Open-Source前沿语音AI（https://github.com/microsoft/VibeVoice）
+📝 公共仓库，用于存储智能体技能（https://github.com/anthropics/skills）
+📊 在Polymarket上使用AI代理自动交易（https://github.com/Polymarket/agents）
+📊 AI驱动的数据科学团队智能体，帮助您以10倍的速度执行常见的数据科学任务（https://github.com/business-science/ai-data-science-team）
+🎯 RF-DETR：由Roboflow开发的实时物体检测和分割模型架构，在COCO上SOTA，专为微调设计（https://github.com/roboflow/rf-detr）
+📈 用于交易的FinRL-Trading（https://github.com/AI4Finance-Foundation/FinRL-Trading）
+📚 Qwen3是Qwen团队和阿里云开发的大语言模型系列（https://github.com/QwenLM/Qwen3）
+📚 marimo：一个响应式笔记本，用于Python — 运行可重复实验，用SQL查询，作为脚本执行，作为应用程序部署，并用git进行版本控制。所有这些都在一个现代的AI原生编辑器中完成（https://github.com/marimo-team/marimo）
+💡 Toolkit，帮助您开始Spec-Driven Development（https://github.com/github/spec-kit）
+📚 收集了使用AI代理和RAG的LLM应用程序的精彩案例，包括OpenAI、Anthropic、Gemini和开源模型（https://github.com/Shubhamsaboo/awesome-llm-apps）
+🎤 Moshi是一个语音-文本基础模型和全双工语音对话框架。它使用Mimi，这是一种最先进的流式神经音频编解码器（https://github.com/kyutai-labs/moshi）
+
+惊艳项目推荐：[microsoft / VibeVoice](https://github.com/microsoft/VibeVoice) — Open-Source前沿语音AI
+
+今日趋势项目关注的领域和特点：
+- 人工智能和机器学习模型的发展和应用
+- 自然语言处理和语音识别技术的创新
+- 自动化数据处理和AI代理在商业和科学领域的应用
+- 代码和软件开发工具的改进和扩展
+
+我是谢苹果，AI信息流2.0，复活了。
+2026-01-25 start the job...
+try at 0 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 1 failed with error: write() argument must be str, not None
+try at 1 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending/python (Caused by ConnectTimeoutError(<HTTPSConnection(host='github.com', port=443) at 0x7b89a6e629c0>, 'Connection to github.com timed out. (connect timeout=10)')) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 2 failed with error: write() argument must be str, not None
+try at 2 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 3 failed with error: write() argument must be str, not None
+try at 3 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending/python (Caused by ConnectTimeoutError(<HTTPSConnection(host='github.com', port=443) at 0x7b89a6e61a30>, 'Connection to github.com timed out. (connect timeout=10)')) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 4 failed with error: write() argument must be str, not None
+try at 4 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 5 failed with error: write() argument must be str, not None
+try at 5 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending/python (Caused by ConnectTimeoutError(<HTTPSConnection(host='github.com', port=443) at 0x7b89a6e614c0>, 'Connection to github.com timed out. (connect timeout=10)')) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 6 failed with error: write() argument must be str, not None
+All attempts to scrape data have failed. occured in daily_task
+2026-01-26 start the job...
+try at 0 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 1 failed with error: write() argument must be str, not None
+try at 1 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 2 failed with error: write() argument must be str, not None
+try at 2 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Max retries exceeded with url: /trending/python (Caused by ConnectTimeoutError(<HTTPSConnection(host='github.com', port=443) at 0x7b89a6e39ac0>, 'Connection to github.com timed out. (connect timeout=10)')) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 3 failed with error: write() argument must be str, not None
+try at 3 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 4 failed with error: write() argument must be str, not None
+try at 4 to get trends~
+scrape() status_code: 200
+https://github.com/Blaizzy/mlx-audio
+https://github.com/VectifyAI/PageIndex
+https://github.com/business-science/ai-data-science-team
+https://github.com/microsoft/VibeVoice
+https://github.com/assafelovic/gpt-researcher
+https://github.com/trycua/cua
+https://github.com/Shubhamsaboo/awesome-llm-apps
+https://github.com/HKUDS/ViMax
+https://github.com/Comfy-Org/ComfyUI
+scape ends
+
+ai is reading, the info is:
+1. [Blaizzy / mlx-audio]:A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.(https://github.com/Blaizzy/mlx-audio)
+2. [VectifyAI / PageIndex]:📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG(https://github.com/VectifyAI/PageIndex)
+3. [business-science / ai-data-science-team]:An AI-powered data science team of agents to help you perform common data science tasks 10X faster.(https://github.com/business-science/ai-data-science-team)
+4. [microsoft / VibeVoice]:Open-Source Frontier Voice AI(https://github.com/microsoft/VibeVoice)
+5. [assafelovic / gpt-researcher]:An autonomous agent that conducts deep research on any data using any LLM providers.(https://github.com/assafelovic/gpt-researcher)
+6. [trycua / cua]:Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).(https://github.com/trycua/cua)
+7. [Shubhamsaboo / awesome-llm-apps]:Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.(https://github.com/Shubhamsaboo/awesome-llm-apps)
+8. [HKUDS / ViMax]:"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"(https://github.com/HKUDS/ViMax)
+9. [Comfy-Org / ComfyUI]:The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.(https://github.com/Comfy-Org/ComfyUI)
+
+ai ans is:
+ 1. [Blaizzy / mlx-audio]: 基于 Apple 的 MLX 框架构建的文本转语音（TTS）、语音转文本（STT）和语音转语音（STS）库，在 Apple Silicon 上提供高效的语音分析。（https://github.com/Blaizzy/mlx-audio）
+2. [VectifyAI / PageIndex]: 📑 PageIndex：无向量文档索引，基于推理的 RAG（Reasoning-based RAG）文档索引。（https://github.com/VectifyAI/PageIndex）
+3. [business-science / ai-data-science-team]: 智能化数据科学团队，可帮助您以10倍的速度执行常见的数据科学任务。（https://github.com/business-science/ai-data-science-team）
+4. [microsoft / VibeVoice]: 开源前沿语音人工智能。（https://github.com/microsoft/VibeVoice）
+5. [assafelovic / gpt-researcher]: 一个自主的智能体，可以在任何数据上使用任何 LLM 提供商进行深入研究。（https://github.com/assafelovic/gpt-researcher）
+6. [trycua / cua]: 用于计算机使用代理的开源基础设施。提供沙盒、SDK 和基准测试，以训练和评估能够控制完整桌面的 AI 代理（macOS、Linux、Windows）。（https://github.com/trycua/cua）
+7. [Shubhamsaboo / awesome-llm-apps]: 收集了使用 AI 代理和 RAG 的优秀 LLM 应用程序，包括 OpenAI、Anthropic、Gemini 和开源模型。（https://github.com/Shubhamsaboo/awesome-llm-apps）
+8. [HKUDS / ViMax]：ViMax：多功能视频生成（导演、编剧、制片人和视频生成器一体化）。（https://github.com/HKUDS/ViMax）
+9. [Comfy-Org / ComfyUI]: 最强大、最模块化的扩散模型 GUI、API 和后端，具有图形/节点界面。（https://github.com/Comfy-Org/ComfyUI）
+
+惊艳项目推荐：
+[HKUDS / ViMax]: ViMax：一款能够实现导演、编剧、制片人和视频生成一体化功能的视频生成工具，为视频创作提供了极大的便利。
+
+今日趋势项目关注领域和特点：
+今日趋势项目主要关注人工智能在语音、文本处理、图像生成等领域的应用，特点包括高效性、模块化、跨平台等。
+2026-01-27 start the job...
+try at 0 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 1 failed with error: write() argument must be str, not None
+try at 1 to get trends~
+when scrape HTTPSConnectionPool(host='github.com', port=443): Read timed out. (read timeout=10) occurs
+scape ends
+
+ai is reading, the info is:
+
+when ai analyze, Error code: 400, with error text {"error":{"code":"1213","message":"未正常接收到prompt参数。"}} occurs...
+ai ans is:
+ None
+Attempt 2 failed with error: write() argument must be str, not None
+try at 2 to get trends~
+scrape() status_code: 200
+https://github.com/Blaizzy/mlx-audio
+https://github.com/Free-TV/IPTV
+https://github.com/Shubhamsaboo/awesome-llm-apps
+https://github.com/sansan0/TrendRadar
+https://github.com/ranaroussi/yfinance
+https://github.com/VectifyAI/PageIndex
+https://github.com/flashinfer-ai/flashinfer
+https://github.com/datawhalechina/hello-agents
+scape ends
+
+ai is reading, the info is:
+1. [Blaizzy / mlx-audio]:A text-to-speech (TTS), speech-to-text (STT) and speech-to-speech (STS) library built on Apple's MLX framework, providing efficient speech analysis on Apple Silicon.(https://github.com/Blaizzy/mlx-audio)
+2. [Free-TV / IPTV]:M3U Playlist for free TV channels(https://github.com/Free-TV/IPTV)
+3. [Shubhamsaboo / awesome-llm-apps]:Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.(https://github.com/Shubhamsaboo/awesome-llm-apps)
+4. [sansan0 / TrendRadar]:⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 翻译 + AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。(https://github.com/sansan0/TrendRadar)
+5. [ranaroussi / yfinance]:Download market data from Yahoo! Finance's API(https://github.com/ranaroussi/yfinance)
+6. [VectifyAI / PageIndex]:📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG(https://github.com/VectifyAI/PageIndex)
+7. [flashinfer-ai / flashinfer]:FlashInfer: Kernel Library for LLM Serving(https://github.com/flashinfer-ai/flashinfer)
+8. [datawhalechina / hello-agents]:📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程(https://github.com/datawhalechina/hello-agents)
+
+ai ans is:
+ Blaizzy / mlx-audio：基于Apple的MLX框架构建的文本转语音（TTS）、语音转文本（STT）和语音转语音（STS）库，在Apple硅芯片上提供高效的语音分析。（https://github.com/Blaizzy/mlx-audio）
+Free-TV / IPTV：免费电视频道的M3U播放列表（https://github.com/Free-TV/IPTV）
+Shubhamsaboo / awesome-llm-apps：包含AI代理和RAG的精彩LLM应用集合，使用OpenAI、Anthropic、Gemini和开源模型。（https://github.com/Shubhamsaboo/awesome-llm-apps）
+sansan0 / TrendRadar：⭐基于AI的公众舆论和趋势监测工具，多平台聚合、RSS和智能提醒。🎯告别信息过载，您的AI舆情监控助手与热点筛选工具！聚合多平台热点 + RSS 订阅，支持关键词精准筛选。AI 翻译 + AI 分析简报直推手机，也支持接入MCP架构，赋能AI自然语言对话分析、情感洞察与趋势预测等。支持Docker，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack等渠道智能推送。（https://github.com/sansan0/TrendRadar）
+ranaroussi / yfinance：从Yahoo! Finance的API下载市场数据（https://github.com/ranaroussi/yfinance）
+VectifyAI / PageIndex：📑 PageIndex：基于向量无和推理的RAG文档索引（https://github.com/VectifyAI/PageIndex）
+flashinfer-ai / flashinfer：FlashInfer：用于LLM服务的内核库（https://github.com/flashinfer-ai/flashinfer）
+
+今天趋势项目关注领域包括人工智能语音分析、多平台数据聚合与舆情监控、市场数据抓取和自然语言处理等。这些项目展现出对智能化工具的日益增长的需求，以及开源社区在推动技术发展中的重要作用。
+
+我是谢苹果，AI信息流2.0，复活了。
