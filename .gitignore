@@ -1,3 +1,6 @@
 /tenv
 *.txt
 /venv/
+*.log
+output.log
+ai_deals.log
