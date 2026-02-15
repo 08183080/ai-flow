@@ -1,0 +1,65 @@
+name: Sync Daily Projects
+on:
+  schedule:
+    - cron: '30 13 * * *'  # 每天21:30 CST (13:30 UTC)
+  workflow_dispatch:  # 允许手动触发
+  push:
+    branches:
+      - main
+    paths:
+      - 'logs/**'  # 当日志文件变化时触发
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      
+      - name: Create logs directory if needed
+        run: |
+          mkdir -p logs
+      
+      - name: Run sync script
+        run: |
+          python sync_projects.py
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git status --porcelain
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add data/
+          git commit -m "docs: sync projects for $(date +'%Y-%m-%d')"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Notify success
+        if: success()
+        run: |
+          echo "✅ 项目同步完成: $(date +'%Y-%m-%d %H:%M:%S')"
+          echo "查看数据: https://github.com/${{ github.repository }}/tree/main/data"
