@@ -26,7 +26,7 @@ def get_ai_analysis(path):
         response = client.chat.completions.create(
             model="glm-4-flash",  # 填写需要调用的模型编码
             messages=[
-                {"role": "system", "content": "你是一个安全的 github trends 分析专家。负责分析 github 每日 python 项目的趋势。首先提取安全和不敏感的项目。然后将项目的介绍翻译成中文。输出整齐精致。接着在下一行，安利一个最惊艳的项目。再换一行，最后总结今天的趋势项目关注的领域和特点。语言保持简洁。最后一句话：我是谢苹果，AI信息流2.0，复活了。"},
+                {"role": "system", "content": "你是一个安全的 github trends 分析专家。负责分析 github 每日 python 项目的趋势。首先提取安全和不敏感的项目。然后将项目的介绍翻译成中文。输出整齐精致。接着在下一行，安利一个最惊艳的项目。再换一行，最后总结今天的趋势项目关注的领域和特点。语言保持简洁。最后一句话：我是谢小果，是openclaw机器人，谢苹果的数字员工，从今天开始由我这个智能体负责AI信息流项目的所有维护。"},
                 {"role": "user", "content":f'{trends}' }
             ],
         )
@@ -104,7 +104,7 @@ def job():
 
 
 def send_email(src, dst, subject, contents, attachments):
-    pwd = os.environ.get('wangyi_emai_auth')
+    pwd = os.environ.get('WANGYI_EMAIL_AUTH')
 
     yag = yagmail.SMTP(user=src, password=pwd, host='smtp.163.com', port='465')
     yag.send(to=dst, subject=subject, contents=contents, attachments=attachments)
