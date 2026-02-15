@@ -5,8 +5,12 @@ import codecs
 import requests
 import schedule
 import time
+import socket
 from pyquery import PyQuery as pq
 from zhipuai import ZhipuAI
+
+# 网络优化配置
+socket.setdefaulttimeout(45)  # 全局socket超时45秒
 
 
 def get_contents(path):
@@ -26,7 +30,47 @@ def get_ai_analysis(path):
         response = client.chat.completions.create(
             model="glm-4-flash",  # 填写需要调用的模型编码
             messages=[
-                {"role": "system", "content": "你是一个安全的 github trends 分析专家。负责分析 github 每日 python 项目的趋势。首先提取安全和不敏感的项目。然后将项目的介绍翻译成中文。输出整齐精致。接着在下一行，安利一个最惊艳的项目。再换一行，最后总结今天的趋势项目关注的领域和特点。语言保持简洁。最后一句话：我是谢小果，是openclaw机器人，谢苹果的数字员工，从今天开始由我这个智能体负责AI信息流项目的所有维护。"},
+                {"role": "system", "content": """你是一个专业的 GitHub 趋势分析专家，负责分析每日 Python 项目的趋势。
+
+## 你的任务：
+1. **安全筛选**：首先提取安全和不敏感的项目
+2. **深度分析**：为每个项目提供以下信息：
+   - 中文翻译和简介
+   - 项目分类标签（从以下标签选择：视觉AI、开发者工具、AI平台、创新应用、基础设施工具、Web3/区块链、数据分析、机器学习框架）
+   - 技术亮点（1-2个关键技术创新点）
+   - 潜在应用场景
+
+3. **趋势洞察**：
+   - 选出1个最惊艳的项目，详细说明为什么惊艳
+   - 识别今日的技术趋势主题（如"隐私友好AI感知技术兴起"、"低代码AI平台爆发"等）
+   - 分析投资/关注热点：哪些领域项目数量增多
+   - 预测下一个可能的热门方向
+
+4. **输出格式**：
+   ## 今日GitHub趋势分析报告
+   
+   ### 最惊艳项目
+   [项目名称] - [一句话描述]
+   为什么惊艳：[详细解释]
+   
+   ### 项目分类概览
+   - **视觉AI**：[项目数量]个，如：[项目1]、[项目2]
+   - **开发者工具**：[项目数量]个，如：[项目1]、[项目2]
+   - **AI平台**：[项目数量]个，如：[项目1]、[项目2]
+   - [其他分类]...
+   
+   ### 今日技术趋势
+   [识别的主要趋势主题，如：隐私友好AI感知技术兴起]
+   
+   ### 深度洞察
+   1. [洞察点1：如哪些领域增长最快]
+   2. [洞察点2：如技术创新模式分析]
+   3. [洞察点3：如潜在商业机会]
+   
+   ### 预测建议
+   [基于今日趋势，下一个可能爆发的方向]
+   
+   我是谢苹果，AI信息流2.0，由nanobot智能优化，复活了。"""},
                 {"role": "user", "content":f'{trends}' }
             ],
         )
@@ -45,16 +89,20 @@ def createtext(filename):
 def scrape(language, filename):
     try:
         HEADERS = {
-            'User-Agent'		: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.7; rv:11.0) Gecko/20100101 Firefox/11.0',
-            'Accept'			: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Encoding'	: 'gzip,deflate,sdch',
-            'Accept-Language'	: 'zh-CN,zh;q=0.8',
-            'Host'              : 'github.com'
+            'User-Agent'		: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept'			: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Encoding'	: 'gzip, deflate, br',
+            'Accept-Language'	: 'zh-CN,zh;q=0.9,en;q=0.8',
+            'Connection'		: 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1'
         }
 
-        # 使用IP直连，绕过DNS问题
-        url = f'https://140.82.121.3/trending/{language}'
-        r = requests.get(url, headers=HEADERS, timeout=45, verify=False)
+        url = f'https://github.com/trending/{language}'
+        r = requests.get(url, headers=HEADERS, timeout=45)  # 增加超时到45秒，匹配全局设置
 
         print(f'scrape() status_code: {r.status_code}')
         assert r.status_code == 200
@@ -106,7 +154,7 @@ def job():
 
 
 def send_email(src, dst, subject, contents, attachments):
-    pwd = os.environ.get('WANGYI_EMAIL_AUTH')
+    pwd = os.environ.get('wangyi_emai_auth')
 
     yag = yagmail.SMTP(user=src, password=pwd, host='smtp.163.com', port='465')
     yag.send(to=dst, subject=subject, contents=contents, attachments=attachments)

@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日AI趋势分析 · AI信息流2.0</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Z" fill="rgba(255,255,255,0.1)"/></svg>');
+            background-size: cover;
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            position: relative;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
+        
+        .header .date {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            position: relative;
+        }
+        
+        .content {
+            padding: 40px 30px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+            border-left: 4px solid #667eea;
+            padding-left: 20px;
+        }
+        
+        .section-title {
+            font-size: 1.5rem;
+            color: #667eea;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .section-title i {
+            font-size: 1.2rem;
+        }
+        
+        .project-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .project-card:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+        }
+        
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(to bottom, #667eea, #764ba2);
+        }
+        
+        .project-title {
+            font-size: 1.2rem;
+            color: #2d3748;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .project-description {
+            color: #4a5568;
+            margin-bottom: 15px;
+        }
+        
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+        
+        .tag {
+            background: #e2e8f0;
+            color: #4a5568;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        .tag.ai { background: #fed7d7; color: #9b2c2c; }
+        .tag.dev { background: #c6f6d5; color: #276749; }
+        .tag.visual { background: #bee3f8; color: #2c5282; }
+        .tag.platform { background: #e9d8fd; color: #553c9a; }
+        
+        .insight-box {
+            background: linear-gradient(135deg, #f0f4ff 0%, #e6f7ff 100%);
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+            border: 2px solid #c3dafe;
+        }
+        
+        .insight-item {
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .insight-item::before {
+            content: '💡';
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        
+        .trend-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin: 10px 5px;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 30px;
+            text-align: center;
+            border-top: 2px solid #e2e8f0;
+            color: #718096;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #667eea;
+            display: block;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #718096;
+        }
+        
+        .powered-by {
+            font-size: 0.9rem;
+            color: #a0aec0;
+            margin-top: 20px;
+        }
+        
+        .ai-logo {
+            font-size: 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 800;
+            letter-spacing: -1px;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px auto;
+                border-radius: 15px;
+            }
+            
+            .header {
+                padding: 30px 20px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 30px 20px;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 AI趋势分析报告</h1>
+            <div class="date">📅 {{ date }} · AI信息流2.0</div>
+        </div>
+        
+        <div class="content">
+            <!-- 最惊艳项目 -->
+            <div class="section">
+                <h2 class="section-title">⭐ 今日最惊艳项目</h2>
+                <div class="project-card">
+                    <div class="project-title">{{ highlight_project.title }}</div>
+                    <div class="project-description">{{ highlight_project.description }}</div>
+                    <div class="tags">
+                        <span class="tag {{ highlight_project.tag_class }}">{{ highlight_project.tag }}</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 项目分类概览 -->
+            <div class="section">
+                <h2 class="section-title">📊 项目分类概览</h2>
+                {% for category in categories %}
+                <div style="margin: 15px 0;">
+                    <strong>{{ category.name }} ({{ category.count }}个):</strong>
+                    <div style="color: #718096; font-size: 0.95rem; margin-top: 5px;">
+                        {{ category.examples }}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <!-- 技术趋势 -->
+            <div class="section">
+                <h2 class="section-title">📈 今日技术趋势</h2>
+                {% for trend in trends %}
+                <span class="trend-badge">{{ trend }}</span>
+                {% endfor %}
+            </div>
+            
+            <!-- 深度洞察 -->
+            <div class="section">
+                <h2 class="section-title">🔍 深度洞察</h2>
+                <div class="insight-box">
+                    {% for insight in insights %}
+                    <div class="insight-item">{{ insight }}</div>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <!-- 预测建议 -->
+            <div class="section">
+                <h2 class="section-title">🎯 预测建议</h2>
+                <div style="background: #f0fff4; padding: 20px; border-radius: 12px; border: 2px solid #c6f6d5;">
+                    {{ prediction }}
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-value">{{ project_count }}</span>
+                    <span class="stat-label">分析项目</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">{{ category_count }}</span>
+                    <span class="stat-label">技术分类</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-value">{{ subscriber_count }}</span>
+                    <span class="stat-label">订阅用户</span>
+                </div>
+            </div>
+            
+            <div class="powered-by">
+                <div style="margin-bottom: 10px;">🤖 <span class="ai-logo">nanobot</span> · 智能优化</div>
+                <div>AI信息流2.0 · 复活了</div>
+                <div style="font-size: 0.8rem; margin-top: 15px; opacity: 0.7;">
+                    本邮件由AI自动生成，关注前沿技术趋势
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
