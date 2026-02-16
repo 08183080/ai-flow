@@ -1,0 +1,29 @@
+{
+  "date": "2026-02-16",
+  "source_file": "arxiv_logs/2026-02-16.txt",
+  "content_length": 3763,
+  "lines_count": 89,
+  "synced_at": "2026-02-16T16:39:03.837698",
+  "projects": [
+    "🚀 arXiv AI/ML论文精选 - 2026-02-16 16:08",
+    "============================================================",
+    "",
+    "📚 今日精选（10篇）：",
+    "============================================================",
+    "",
+    "1. 【cs.RO】Imitating What Works: Simulation-Filtered Modular Policy Learning from Human Videos",
+    "    👤 Zhai 等 | 📅 2026-02-13",
+    "    📖 通过观察人类视频学习操作技能可解锁机器人学习的高可扩展数据源。本文针对抓取操作，提出了一种名为PSI的框架，利用模拟中的抓取轨迹过滤处理人类视频运动数据，训练模块化操作策略。",
+    "    🔗 https://arxiv.org/abs/2602.13197v1",
+    "    ",
+    "2. 【cs.CV】Conversational Image Segmentation: Grounding Abstract Concepts with Scalable Supervision",
+    "    👤 Sahoo, Gkioxari | 📅 2026-02-13",
+    "    📖 对话式图像分割将抽象、意图驱动概念转化为像素级掩码。先前研究忽视功能与物理推理，本文提出CIS和ConverSeg基准，涵盖实体、空间关系、意图、功能、安全与物理推理。",
+    "    🔗 https://arxiv.org/abs/2602.13195v1",
+    "    ",
+    "3. 【cs.CL】Semantic Chunking and the Entropy of Natural Language",
+    "    👤 Zhong 等 | 📅 2026-02-13",
+    "    📖 本研究提出了一种统计模型，旨在捕捉自然语言的复杂多尺度结构，并解释了英语文本的冗余度。该模型将文本自相似分割至单词级别，并按语义结构进行层次分解。",
+    "    🔗 https://arxiv.org/abs/2602.13194v1"
+  ]
+}
